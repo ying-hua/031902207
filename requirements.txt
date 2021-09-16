@@ -1,1 +1,2 @@
-pypinyin
+# pip install -r requirements.txt
+pypinyin==0.42.0
