@@ -1,9 +1,5 @@
 import copy
-import enum
-from os import stat
-from pkg_resources import register_namespace_handler
 from pypinyin import lazy_pinyin
-from pypinyin.core import pinyin
 from hanzi_chaizi import HanziChaizi as hc
 def other_char_cn(char):
     if(ord(char) >= 32 and ord(char) <= 126):
